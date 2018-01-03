@@ -1,0 +1,73 @@
+/* 마진 패딩 0으로 초기화*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;	/*목록에 글머리 표시 X*/
+}
+
+body {
+	font-family: "맑은 고딕","돋움";	/*글꼴 지정*/
+	font-size: 12px;	/*글자 크기 지정*/
+	color: #444444;		/*글자 색 지정*/
+}
+
+/*로그인 박스 부분 선택자 옵션*/
+#login_box {
+	width: 300px;
+	height: 150px;
+	border: solid 5px #76bd52;	/*실선 사각형 5px두께*/
+	border:-radius:15px;
+	margin: 10px 0 0 10px;	/*마진 상 10px 좌 10px*/
+	padding: 10px 0 0 15px;	/*패딩 상 10px 좌 15px*/
+}
+
+/*입력창 높이와 두께 설정*/
+#login_box input {
+	width: 100px;
+	height: 15px;
+}
+
+/*버튼및 아이디 입력창 수평수직방향 설정*/
+#id_pass, #login_btn {
+	display: inline-block;	/*inline-block 으로 수평 수직방향 모두 설정*/
+	vertical-align: top;	/*박스 상단에 배치*/
+}
+
+/*ID, PW 글자 크기*/
+#id_pass span {
+	display: inline-block;
+	width: 20px ;
+}
+
+
+#pass {
+	margin-top: 3px;
+}
+
+/*로그인 버튼 속성*/
+#login_btn button {
+	margin-left: 2px;
+	padding: 11px;		/*크기*/
+	border-radius: 3px;	/*모서리 둥글기 정도*/
+}
+
+/*가입 버튼 속성*/
+#btns {
+	margin: 15px 0 0 0;
+	text-decoration: underline;	/*텍스트에 밑줄 표시*/
+}
+
+/*가입 버튼 속성*/
+#btns li {
+	margin-left: 10px;
+	display: inline;
+}
+
+h2 {
+	font-family: "Arial";	/*글꼴 지정*/
+	margin-bottom: 10px;
+}
+
