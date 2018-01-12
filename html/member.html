@@ -1,0 +1,50 @@
+<DOCTYPE html>
+  <html>
+  <link rel="stylesheet" href="member.css">
+  <head>
+    <meta charset='utf-8'>
+  </head>
+  <body>
+    <form action="member_db.php" method="POST">
+  <div id="box">
+    <h2>회원 정보를 입력하세요</h2>
+    <ul id="inputs">
+      <li>
+        <span>학&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp번</span>
+        <input id="stdnum" type="text" name="stdnum">
+      </li>
+
+      <li>
+        <span>비밀번호</span>
+        <input id="pwd" type="password" name="pwd">
+      </li>
+
+      <li>
+        <span>학&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp과</span>
+        <input id="major" type="text" name="major">
+      </li>
+
+      <li>
+        <span>나&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp이</span>
+        <input id="age" type="text" name="age">
+      </li>
+
+      <li>
+        <span>PHONE&nbsp&nbsp</span>
+        <input id="phone" type="text" name="phone">
+      </li>
+
+      <li>
+        <span>성&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp별</span>
+        <input id="sex" type="radio" name="sex" value="남" checked>남
+        <input id="sex" type="radio" name="sex" value="여">여
+      </li>
+
+
+
+      <input id="submit" type="submit" value="제출">
+
+    </ul>
+  </form>
+</body>
+</html>
